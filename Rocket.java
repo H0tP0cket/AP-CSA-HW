@@ -32,6 +32,7 @@ public class Rocket {
         body();
         System.out.println("| \"hi\"  |");
         body();
+        //this is the concatenation
         System.out.println("|___" + "____|");
         rocket();
     }
