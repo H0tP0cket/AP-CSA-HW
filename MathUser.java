@@ -9,15 +9,15 @@ public class MathUser {
         Scanner in = new Scanner(System.in);
         System.out.print("enter x1:");
         double x1 = in.nextDouble();
-        Scanner in2 = new Scanner(System.in);
+
         System.out.print("enter y1:");
-        double y1 = in2.nextDouble();
-        Scanner in3 = new Scanner(System.in);
+        double y1 = in.nextDouble();
+
         System.out.print("enter x2:");
-        double x2 = in3.nextDouble();
-        Scanner in4 = new Scanner(System.in);
+        double x2 = in.nextDouble();
+
         System.out.print("enter y2:");
-        double y2 = in4.nextDouble();
+        double y2 = in.nextDouble();
 
         double distance = Math.hypot(x1 - x2, y1 - y2);
         double midpoint1 = (x1 + x2) / 2;
@@ -29,6 +29,7 @@ public class MathUser {
         System.out.println("The distance between your two points is: " + distance);
         System.out.println("The midpoint of your two points is: (" + midpoint1 + "," + midpoint2 + ")");
         System.out.println("The equation of your line is: y= " + slope1 + "/" + slope2 + "x + " + yint);
-
+        in.close();
     }
+
 }
