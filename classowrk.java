@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class classowrk {
     public static void main(String[] args) {
         String again;
-        int bal = 20;
+        int bal = 1000;
         Scanner in = new Scanner(System.in);
         boolean run = true;
 
