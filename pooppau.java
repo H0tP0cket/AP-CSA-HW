@@ -9,7 +9,7 @@ public class pooppau {
         int num4;
         int num5;
         int num6;
-        int num7;
+        int num7;   
         System.out.println("Please enter the first number: ");
         num1 = sc.nextInt();
         int max = num1;

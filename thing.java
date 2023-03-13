@@ -10,4 +10,5 @@ public class thing {
         }
         System.out.println(a + " " + b);
     }
+
 }
