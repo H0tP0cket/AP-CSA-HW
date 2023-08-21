@@ -12,8 +12,8 @@ public class Rectangle {
     public Rectangle(int a, int b) {
         length = a;
         width = b;
-
     }
+
 
     // getters and setters
     public int getLength() {
